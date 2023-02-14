@@ -1,0 +1,83 @@
+             css
+
+
+tutorial 2:
+
+inline external styling 
+
+border ->in border we can give like 
+border: 2px solid red; width=300px; 
+        this will give a width of 300px instead of taking whole page length.
+
+border:2px solid red;width=80%;max-width:500px;
+       this will give maximum width upto 500px 
+....................................................................................
+tutorial 3:
+
+color picker w3 schools you can have more number of colors you can pick from 
+1.rgb(256,256,256)
+2.hue saturation lightness (hsl(0, 100%, 45%)
+3.hexa (#ff0022)
+4.name of the color
+
+...................................................................................
+tutorial 4:
+
+margins and padding:
+padding is used to control the spacing inside the elements 
+ - in padding we can give padding to top, bottom, right, left
+ - ex: padding 35px
+       padding-top:30px;
+	   padding: 10px 20px 30px 40px; 
+margin is used to control the spacing outside the elements
+ - in margins also same but it will give spacing outside the elements
+ - we can even give negative values as well.
+......................................................................................
+tutorial 5:
+
+Display and float
+ -float is a property that allows you to take elements on your page and float them to 
+ different sides of the page. 
+ -ex: float:none;
+      float:left;
+	  float:right;
+	  
+display ia an another property in html and it defines  how your elements are displayed 
+and there's two basic types of displays in html the first one is 
+   -block
+   -inline (in inline we can use width and height)
+   -grid
+   -flex
+   -display:inline-block; (we use width and height)
+   -none
+   
+   flex and flexbox:
+   - display:flex;
+     justify-content:center/space-between/space-around;
+	 align-items:streach/flex-start/flex-end/center;
+     align-content:shrink/flex-start/flex-end/space-between;(dont use much)
+	 flex-wrap:wrap;
+     flex-direction:column/row;
+     flex-shrink:0/1/2;
+     flex-grow:1/2/3;
+	 flex-basis:0;
+	 align-sef:center/flex-end/flex-start;
+	 order:1/2/3;(in which order you want it not advised to use )
+     flex:1 0 0px; (short hand for flex:grow,shrink,basis)	 
+	 
+	 Grid:
+	 
+	 -.grid-container{
+	        display:grid;
+	        gridtemplate-columns:2fr 1fr;
+			grid-template-rows:200px 150px;
+			grid-auto-rows:150px;
+			etc....
+.......................................................................
+tutorial 6
+
+			
+			
+			
+			
+	 }
