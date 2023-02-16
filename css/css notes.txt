@@ -67,14 +67,105 @@ and there's two basic types of displays in html the first one is
 	 
 	 Grid:
 	 
-	 -.grid-container{
+		.container{
 	        display:grid;
-	        gridtemplate-columns:2fr 1fr;
+	        grid-template-columns:2fr 1fr;
 			grid-template-rows:200px 150px;
+			grid-template: repeat(2,100px)/repeat(3,50px); /* first is row and second is column.*/
+			grid-row-gap:3px;
+			grid-column-gap:3px;
+			grid-gap:3px;
+			grid-template-areas:
+			"h h h h h h h h h h h h"
+			"m c c c c c c c c c c c"
+			"f f f f f f f f f f f f";			
+			}
+		.header{
+			grid-column-start:1;
+			grid-column-end:3;
+			grid-column:1/3;
+			grid-column:1/span2;
+			
+			grid-row-start:1;
+			grid-row-end:3;
+			grid-row:1/3;
+			
+			grid-area:h;
+			}
+			
+			
+		
+			grid-template-rows:100px 100px;
 			grid-auto-rows:150px;
-			etc....
+			grid-auto-flow:dense;
+	
+	       justift-content:center;//this will center in row side
+		   align-content:center;//this will center in colums side
+		   grid-template-columns:repeat(auto-fit,minmax(100px,1fr)); //it will stretch all the grids 
+		   grid-template-columns:repeat(auto-fill,minmax(100px,1fr));// it will fill upto 100px,1fr if you extend it will give the space at the end.
+	Named lines:	   
 .......................................................................
 tutorial 6
+
+positioning in css:
+by default static positioning
+    position:relative; top/bottom/left/right:10px;//
+	position:static;
+	position:absolute; top/bottom/left/right:100px;//
+	position:fixed;	top/bottom/left/right:10px;//
+.......................................................................
+tutorial 7:
+
+text-shadow: x y blur color;
+text-shadow: 1px 1px 3px voilet;//for text we use text-shadow for shadow the text.
+opacity: 0.2//(0 means full transparent 1.0 means no transparent)
+box-shadow: x y blur color;// for images we use box-shadow for shadow the image.
+box-shadow: 5px 5px 4px red;
+border-radius:5px;
+...................................................................
+tutorial 8:
+
+fonts and colors:
+color:blue;
+fonts-size:20px/20em;//em and pixel is measurement em is recomennded
+font-family:courier/times new roman etc;
+font-style:italics/;
+font-variant:small-caps;// this make all words in capital letters
+font-weight:bold/bolder/lighter/normal;
+...................................................................
+tutorial 9:
+inline style
+...............................................
+tutorial 10:
+external styling .css
+............................................
+tutorial 11:
+
+ids & classes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			
 			
