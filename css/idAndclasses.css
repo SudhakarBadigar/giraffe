@@ -1,0 +1,46 @@
+#sudhi-h1-1st{
+    color: green;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#sudhi-h1-2nd{
+    color:yellow;
+}
+.su1{
+    color:#2ee
+}
+.su2{ 
+    background-color: red;
+}
+.su3{
+    border: 2px solid black;
+}
+.su4{
+    font-variant: small-caps;
+}
+
+ul > li {
+    background-color: red;
+    list-style: circle; 
+    width: 80px;
+    margin-bottom: 5px;
+}
+p  + h2  {
+    color:yellow;
+    width: 120px;
+    background-color: black;
+}
+p  + h2  + h3{
+    color:yellow;
+    width: 120px;
+    background-color: black;
+}
+h1:hover{
+    background-color:  green;
+}
+
+
+
+[title]{
+    background-color: green;
+}

@@ -142,7 +142,29 @@ external styling .css
 tutorial 11:
 
 ids & classes:
+id="#mikes-h1" // id can have only one time in html element not more than that
+class="su1 su2 su3 .." //classes you can give as many as you want according to your requirement
+............................................................
+tutorial 12:
+ css selectors:
+ 
+ id        #idname{}
+ class     .classname{}
+universal    * everything will be selected body,h1,p,whole page etc
+Element selector   h1,h2,p,blockquote etc{}
+ul>li{} selects all the list items   
+p + h1{}  + will select any of the h1 that occurs directly after a paragrah.   
 
+
+//[href] or [title] this are some of the html attributes where we can add some styles for those as well by giving [name inside this bracket]
+
+[href] / [title] etc {  
+background-color:yellow;
+}
+
+.....................................................................................
+css nareshIT:
+day 2:
 
 
 
