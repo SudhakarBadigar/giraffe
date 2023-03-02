@@ -12,11 +12,37 @@
             border: 2px solid black;
             background-image: linear-gradient(to top right,red 10%,yellow 70%);
         }
+        #lorem::first-line
+        {
+            font-size: 30px;
+            font-weight: bold;
+            color: red;
+            float: left;
+
+
+            
+        }
         #complex{
             font-size: 30px;
         }
         p{
-            font-size: 0.4em;
+            font-size: 0.6em;
+        }
+        td:empty{
+            background-color:blueviolet;
+            
+        }
+        :root{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+
+        .pa1{
+            font-size: 30px;
+            border-style: ;
+            border-left: solid 8px skyblue; 
+           
+
         }
 
         
@@ -24,6 +50,35 @@
 </head>
 <body>
 
+    <div class="pa1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ut.</p>
+    </div><br><br>
+<div>
+    <table border="1" width=400>
+        <tr>
+            <th>Name</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <td>laptop</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>mobile</td>
+            <td>45000</td>
+        </tr>
+        <tr>
+            <td>tv</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>4000</td>
+        </tr>
+    </table>
+
+
+</div>
     <div id="container">
 
     </div>
@@ -42,6 +97,15 @@
         </p>
 
     </div>
+
+    <div id="lorem">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea suscipit repellat labore libero laborum veniam eveniet earum laboriosam fuga ad!
+            lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, totam debitis voluptas odit voluptatem consequatur dolorum nemo voluptatum libero! Aliquam.
+            lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus minima repudiandae assumenda facilis qui a iure quibusdam blanditiis consequatur ut.
+        </p>
+    </div>
+
 
     
 </body>

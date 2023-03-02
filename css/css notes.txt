@@ -165,7 +165,8 @@ background-color:yellow;
 .....................................................................................
 css nareshIT:
 day 2:
-
+1. css minification : this is reducing the size of the file 
+2.
 
 
 
